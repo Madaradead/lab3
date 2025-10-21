@@ -1,5 +1,17 @@
-# Vue 3 + Vite
+Це простий застосунок , який був створений в рамках 3 лабороторної роботи .Я використовував Vue , Vite та Vue Router.
+Мій застосунок має 3 сторінки:
+1. Головна - Home , в ній я створив краткий опис 
+2. Католог - item , тут в мене сторінка зі списком посилань , дані якого завантажуються з статичного файлу items.js
+3.Деталі - items/:id , тут в мене динамічна сторінка , що показує деталі кожного обраного посилання з кнопкою на перходи на зовнішні сторінки.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Встановлення та запуск 
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Я клонував репозиторій 
+після чого встановив залежність npm i
+та запустив сервер для розробки npm run dev 
+
+
+скрипти які використовував 
+1. npm run dev - запускає проект в режимі розрробки 
+2. npm run build -  збірка проекту  у папку 
+3. npm rin preview - локальний запуск зібраної версії 
